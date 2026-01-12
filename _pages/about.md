@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 Welcome! I'm a PhD candidate in economics at Paris Panthéon Assas University.
-My research examines the political economy of institutional change, focusing on how economic, demographic, and political forces shape institutional development.
+
+My research focuses on political and development economics.
 
 A data-driven personal website
 ======
