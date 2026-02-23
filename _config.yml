@@ -22,7 +22,7 @@ repository               : "redhachaba/redhachaba.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "agence.png"
+  avatar           : "agence.jpg"
   name             : "Redha Chaba"
   pronouns         : # example: "she/her"  
   bio              : "Agent immobilier, Century 21, Agence Tolbiac Paris 13ème"
