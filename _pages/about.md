@@ -7,8 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I'm a PhD candidate in economics at Paris Panthéon Assas University, supervised by Victor Hiller and Paul Maarek. My research examines how interactions between economic, demographic, and political forces shape institutional change.
-I visited Brown University in Fall 2025 (hosted by Prof. Michalopoulos) and the University of Cambridge in Fall 2024 (hosted by Prof. Aidt). In January 2027, I will join the Paris School of Economics as a postdoctoral researcher.
+Welcome! I'm a PhD candidate in economics at Paris Panthéon Assas University, supervised by Victor Hiller and Paul Maarek.
+
+My research examines how interactions between economic, demographic, and political forces shape institutional change.
+
+I visited Brown University in Fall 2025 (hosted by Prof. Michalopoulos) and the University of Cambridge in Fall 2024 (hosted by Prof. Aidt).
+
+In January 2027, I will join the Paris School of Economics as a postdoctoral researcher.
 
 ## Research
 
