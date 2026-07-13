@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Redha Chaba"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome! I'm a PhD candidate in economics at Paris Panthéon Assas University, supervised by Victor Hiller and Paul Maarek.
+I'm a PhD candidate in economics at Paris Panthéon Assas University, supervised by Victor Hiller and Paul Maarek.
 
 My research examines how interactions between economic, demographic, and political forces shape institutional change.
 
