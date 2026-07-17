@@ -11,9 +11,20 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign ordered_publications = site.publications | sort: "order" %}
-
-{% for post in ordered_publications %}
+<h2 id="publications">Publications</h2>
+{% assign publications_list = site.publications | where: "category", "publication" | sort: "order" %}
+{% for post in publications_list %}
   {% include archive-single.html %}
 {% endfor %}
 
+<h2 id="working-papers">Working Papers</h2>
+{% assign workingpapers_list = site.publications | where: "category", "workingpaper" | sort: "order" %}
+{% for post in workingpapers_list %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2 id="work-in-progress">Work in Progress</h2>
+{% assign wip_list = site.publications | where: "category", "wip" | sort: "order" %}
+{% for post in wip_list %}
+  {% include archive-single.html %}
+{% endfor %}
