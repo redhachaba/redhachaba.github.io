@@ -19,8 +19,20 @@ In January 2027, I will join the Paris School of Economics as a postdoctoral res
 
 {% include base_path %}
 
-{% assign ordered_publications = site.publications | sort: "order" %}
+### Publications
+{% assign publications_list = site.publications | where: "category", "publication" | sort: "order" %}
+{% for post in publications_list %}
+  {% include archive-single.html %}
+{% endfor %}
 
-{% for post in ordered_publications %}
-{% include archive-single.html %}
+### Working Papers
+{% assign workingpapers_list = site.publications | where: "category", "workingpaper" | sort: "order" %}
+{% for post in workingpapers_list %}
+  {% include archive-single.html %}
+{% endfor %}
+
+### Work in Progress
+{% assign wip_list = site.publications | where: "category", "wip" | sort: "order" %}
+{% for post in wip_list %}
+  {% include archive-single.html %}
 {% endfor %}

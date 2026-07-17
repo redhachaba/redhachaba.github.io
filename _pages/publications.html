@@ -4,27 +4,3 @@ permalink: /research/
 redirect_to: "/#research"
 sitemap: false
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<h2 id="publications">Publications</h2>
-{% assign publications_list = site.publications | where: "category", "publication" | sort: "order" %}
-{% for post in publications_list %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2 id="working-papers">Working Papers</h2>
-{% assign workingpapers_list = site.publications | where: "category", "workingpaper" | sort: "order" %}
-{% for post in workingpapers_list %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2 id="work-in-progress">Work in Progress</h2>
-{% assign wip_list = site.publications | where: "category", "wip" | sort: "order" %}
-{% for post in wip_list %}
-  {% include archive-single.html %}
-{% endfor %}
