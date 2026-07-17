@@ -52,8 +52,9 @@
   font-weight: normal;
 }
 
-.archive__item:hover .archive__item-title--plain {
-  text-decoration: none;
+.archive__item:hover .archive__item-title--plain,
+.archive__item-title--plain {
+  text-decoration: none !important;
 }
 /* remove border*/
 .page__content {
