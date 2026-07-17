@@ -15,23 +15,21 @@ I visited Brown University in Fall 2025 (hosted by Prof. Michalopoulos) and the 
 
 In January 2027, I will join the Paris School of Economics as a postdoctoral researcher.
 
-## Research
-
 {% include base_path %}
 
-### Publications
+## Publications
 {% assign publications_list = site.publications | where: "category", "publication" | sort: "order" %}
 {% for post in publications_list %}
   {% include archive-single.html %}
 {% endfor %}
 
-### Working Papers
+## Working Papers
 {% assign workingpapers_list = site.publications | where: "category", "workingpaper" | sort: "order" %}
 {% for post in workingpapers_list %}
   {% include archive-single.html %}
 {% endfor %}
 
-### Work in Progress
+## Work in Progress
 {% assign wip_list = site.publications | where: "category", "wip" | sort: "order" %}
 {% for post in wip_list %}
   {% include archive-single.html %}
