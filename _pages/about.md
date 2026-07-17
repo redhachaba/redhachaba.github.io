@@ -17,7 +17,7 @@ In January 2027, I will join the Paris School of Economics as a postdoctoral res
 
 {% include base_path %}
 
-## Publications
+<h2 id="publications">Publications</h2>
 {% assign publications_list = site.publications | where: "category", "publication" | sort: "order" %}
 {% for post in publications_list %}
   {% include archive-single.html %}
