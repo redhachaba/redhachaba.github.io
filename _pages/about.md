@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD candidate in economics at Paris Panthéon Assas University, supervised by Victor Hiller and Paul Maarek.
+I'm a Ph.D. candidate in economics at Paris Panthéon Assas University, under the supervision of Victor Hiller and Paul Maarek.
 
 My research examines how interactions between economic, demographic, and political forces shape institutional change.
 
