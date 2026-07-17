@@ -27,16 +27,19 @@
     {% endif %}
 
 
+
 <h2 class="archive__item-title" itemprop="headline">
      
      {% if post.link %}
   <a href="{{ post.link }}">{{ title }}</a>
 {% else %}
   <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-{% endif %}{% if post.coauthors %}<span style="font-weight: normal; font-size: 0.65em; white-space: nowrap;">, with {{ post.coauthors }}</span>{% endif %}
+{% endif %}
      
     </h2>
-
+    {% if post.coauthors %}
+      <p style="font-weight: normal; margin-top: -0.5em;">with {{ post.coauthors }}</p>
+    {% endif %}
 
     
     {% if post.read_time %}
