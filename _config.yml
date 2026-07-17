@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Home"
+title                    : "Redha Chaba"
 title_separator          : "-"
 name                     : &name "Redha Chaba"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ repository               : "redhachaba/redhachaba.github.io"
 author:
   # Biographic information
   avatar           : "chaba_profile.jpg"
-  name             : "Redha Chaba"
+  name             : ""
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate in Economics"
   location         : #
