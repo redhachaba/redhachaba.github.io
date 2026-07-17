@@ -51,7 +51,7 @@
     With {{ post.coauthors }}<br />
   {% endif %}
   {% if post.venue %}
-    <strong>{{ post.venue }}</strong>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+<strong><em>{{ post.venue }}</em></strong>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
   {% endif %}
 </p>
 
