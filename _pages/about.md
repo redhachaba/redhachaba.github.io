@@ -11,7 +11,7 @@ I'm a Ph.D. candidate in economics at Paris Panthéon Assas University, under th
 
 My research examines how interactions between economic, demographic, and political forces shape institutional change.
 
-I visited Brown University in Fall 2025 (hosted by Prof. Stelios Michalopoulos) and the University of Cambridge in Fall 2024 (hosted by Prof. Toke Aidt).
+I visited Brown University in Fall 2025 (hosted by [Prof. Stelios Michalopoulos](https://sites.google.com/site/steliosecon/research?authuser=0)) and the University of Cambridge in Fall 2024 (hosted by [Prof. Toke Aidt](https://www.econ.cam.ac.uk/people/academic/toke-aidt)).
 
 In January 2027, I will join the Paris School of Economics as a postdoctoral researcher.
 
