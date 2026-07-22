@@ -53,7 +53,7 @@
 
 <p>
   {% if post.venue %}
-    <strong><em>{{ post.venue }}</em></strong>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+    <strong><em>{{ post.venue }}</em></strong>{% if post.note %}, {{ post.note }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
   {% endif %}
 </p>
 
